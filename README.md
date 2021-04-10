@@ -26,8 +26,12 @@ with JupiterOne in the [integration documentation](docs/jupiterone.md).
 
 ### Running the integration
 
-1. `yarn start` to collect data
-2. `yarn graph` to show a visualization of the collected data
+1. `yarn start` to collect entities and relationships and store them locally at
+   `./.j1-integration/`:
+   ![j1-integration-directory](./docs/assets/j1-integration-directory.png)
+2. `yarn graph` to generate a visualization of the entities and relationships in
+   `./.j1-integration/`:
+   ![j1-integration-visualization](./docs/assets/j1-integration-visualization.png)
 3. `yarn j1-integration -h` for additional commands
 
 ### Making Contributions
